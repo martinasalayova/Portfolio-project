@@ -1,3 +1,72 @@
 body {
-  background-color: aqua;
+  background-color: black;
+  padding: 0px 270px;
+  margin: auto;
+}
+
+p {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40;
+}
+
+div .first {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40;
+}
+
+div .second {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48;
+}
+
+.container {
+  margin: 0;
+  padding: 0px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+@keyframes transform-image {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.hand:hover {
+  animation-name: transform-image;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }
