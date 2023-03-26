@@ -4,10 +4,6 @@ body {
   margin: auto;
 }
 
-p {
-  color: white;
-}
-
 h1,
 h2,
 h3 {
@@ -39,10 +35,7 @@ div .second {
   font-weight: 600;
   font-size: 48;
 }
-
 .container {
-  margin: 0;
-  padding: 0px;
 }
 
 .nav-link {
@@ -51,6 +44,33 @@ div .second {
 
 .navbar-brand {
   color: white;
+}
+
+.position-work-button {
+  display: flex;
+  justify-content: center;
+}
+
+.work-button {
+  background-color: #5be3ec;
+  color: rgb(11, 51, 53);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 18px;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(34, 201, 166, 0.2);
+  display: inline-block;
+}
+
+.work-button:hover {
+  background-color: #5be3ec;
+  color: rgb(208, 242, 243);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 @keyframes transform-image {
