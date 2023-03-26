@@ -105,3 +105,41 @@ div .second {
   font-size: 15px;
   text-decoration: none;
 }
+
+.d-sm-block {
+  color: black;
+  display: inline !important;
+}
+
+@media (max-width: 991px) {
+  body {
+    background-color: black;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .nav-link {
+    color: white !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    padding: 8px !important;
+  }
+
+  .homepage {
+    margin-left: 0px !important;
+  }
+
+  .contact-menu {
+    height: 44.5px !important;
+    width: 150px !important;
+  }
+}
