@@ -90,3 +90,18 @@ div .second {
   animation-duration: 0.5s;
   animation-iteration-count: 1;
 }
+
+.nav-link {
+  border-color: #5be3ec !important;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  background-color: #5be3ec;
+  color: black !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+}
