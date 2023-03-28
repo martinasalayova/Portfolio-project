@@ -183,3 +183,11 @@ div .second {
     text-align: center;
   }
 }
+
+@media (max-width: 1400px) {
+  .p-style {
+    font-size: 18px;
+
+    line-height: 20px;
+  }
+}
