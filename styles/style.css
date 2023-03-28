@@ -30,6 +30,12 @@ div .first {
   font-size: 40;
 }
 
+.first-about {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 div .second {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -141,5 +147,15 @@ div .second {
   .contact-menu {
     height: 44.5px !important;
     width: 150px !important;
+  }
+
+  .first-about {
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .second-about {
+    text-align: center;
   }
 }
