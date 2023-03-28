@@ -15,19 +15,19 @@ h3 {
 h2 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 40;
+  font-size: 40px;
 }
 
 h3 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 40;
+  font-size: 40px;
 }
 
 div .first {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 40;
+  font-size: 40px;
 }
 
 .first-about {
@@ -39,7 +39,31 @@ div .first {
 div .second {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 48;
+  font-size: 48px;
+}
+
+.work-page {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #5be3ec;
+}
+
+.project-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.p-style {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.6;
+  line-height: 5px;
+  color: #5be3ec;
 }
 .container {
 }
