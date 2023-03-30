@@ -156,6 +156,15 @@ div .second {
   display: inline !important;
 }
 
+.active {
+  background-color: #5be3ec !important;
+  color: black !important;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  text-decoration: none !important;
+}
+
 @media (max-width: 991px) {
   body {
     background-color: black;
