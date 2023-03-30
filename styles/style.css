@@ -47,7 +47,7 @@ div .second {
   font-weight: 600;
   font-size: 28px;
   text-align: center;
-  color: #5be3ec;
+  color: white;
 }
 
 .project-name {
@@ -165,6 +165,31 @@ div .second {
   text-decoration: none !important;
 }
 
+.icons-contact {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  padding: 0px 30px;
+  width: fit-content;
+  font-size: 23px;
+}
+
+.fa-regular {
+  transition: all 100ms ease-in-out;
+}
+.fa-regular:hover {
+  transform: rotate(0.5turn);
+}
+
+.fa-brands {
+  transition: all 100ms ease-in-out;
+}
+.fa-brands:hover {
+  transform: rotate(0.5turn);
+}
+
 @media (max-width: 991px) {
   body {
     background-color: black;
@@ -205,6 +230,10 @@ div .second {
 
   .second-about {
     text-align: center;
+  }
+
+  footer a {
+    margin: 30px 0px;
   }
 }
 
