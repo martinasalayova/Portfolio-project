@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  padding: 0px 270px;
+  padding: 15px 270px;
   margin: auto;
 }
 
@@ -193,7 +193,7 @@ footer a {
 @media (max-width: 991px) {
   body {
     background-color: black;
-    padding: 0;
+    padding: 15px 15px;
   }
 
   h1,
@@ -203,7 +203,7 @@ footer a {
   }
 
   .container {
-    width: 500px;
+    padding: 15px 15px;
   }
 
   .nav-link {
