@@ -65,7 +65,9 @@ div .second {
   line-height: 5px;
   color: #5be3ec;
 }
-.container {
+
+.link {
+  text-decoration: none;
 }
 
 .nav-link {
